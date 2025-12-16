@@ -47,7 +47,7 @@ Creare un **nuovo progetto Raylib** (ad esempio `my_game`) partendo da
 Dentro la cartella `projects`:
 
 -   copia la cartella `hello_world`
--   incolla la copia dentro **project**
+-   incolla la copia dentro **projects**
 -   rinomina la copia con il nome del tuo progetto
 
 Esempio:
@@ -84,11 +84,16 @@ Apri il file:
 
     projects/CMakeLists.txt
 
+⚠️ Attenzione a non sbagliare il file, ce ne sono diversi con questo nome,
+questo è quello che si trova all'interno della cartella `projects`.
+
 Vedrai qualcosa di simile:
 
 ``` cmake
 add_subdirectory(hello_world)
 ```
+Se così non fosse, vuol dire che non hai aperto quello corretto,
+chiudilo e cerca meglio.
 
 ➕ **Aggiungi una nuova riga** con il nome del tuo progetto:
 
@@ -98,7 +103,7 @@ add_subdirectory(my_game)
 ```
 
 ⚠️ Se **non fai questo passaggio**, il progetto **non verrà compilato**.
-
+Inoltre, in dipendenza dall'impostazione dell'IDE, può essere necessarrio che venga "ricaricato" CMakeLists.txt. In CLion viene mostrata eventualmente una icona in alto a destra a forma di triangolo, su cui è necessario cliccare per far rileggere e eseguire la riga aggiunta.
 ------------------------------------------------------------------------
 
 ### 4️⃣ Scrivi il tuo codice
