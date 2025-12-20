@@ -114,13 +114,17 @@ chiudilo e cerca meglio.
 
 ➕ **Aggiungi una nuova riga** con il nome del tuo progetto:
 
-``` cmake
+```cmake
 add_subdirectory(hello_world)
 add_subdirectory(my_game)
 ```
 
 ⚠️ Se **non fai questo passaggio**, il progetto **non verrà compilato**.
-Inoltre, in dipendenza dall'impostazione dell'IDE, può essere necessarrio che venga "ricaricato" CMakeLists.txt. In CLion viene mostrata eventualmente una icona in alto a destra a forma di triangolo, su cui è necessario cliccare per far rileggere e eseguire la riga aggiunta.
+Inoltre, in dipendenza dall'impostazione dell'IDE, può essere necessario 
+che venga "ricaricato" CMakeLists.txt. In CLion viene mostrata eventualmente 
+una icona in alto a destra a forma di triangolo, su cui è necessario cliccare 
+per far rileggere ed eseguire la riga aggiunta.
+
 ------------------------------------------------------------------------
 
 ### 4️⃣ Scrivi il tuo codice
