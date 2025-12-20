@@ -15,6 +15,23 @@ in ordine.
 
 ------------------------------------------------------------------------
 
+## ⬇️ Scarica questo repository
+
+### Opzione 1
+
+Se sai utilizzare `git`, esegui il comando 
+
+```bash
+git clone https://github.com/alessandro-bugatti/raylib_progetti.git
+```
+
+nella cartella dove vuoi che venga scaricato e poi apri la nuova cartella in CLion (o nel tuo IDE)
+
+### Opzione 2
+
+Apri il menù presente nel tasto `<> Code` e clicca su *Download ZIP*.
+Verrà scaricato un file zip, estrai la cartella nella posizione che preferisci e poi apri quella cartella in CLion (o nel tuo IDE)
+
 ## 📁 Struttura di base (non modificare)
 
 All'inizio di questa cartella troverai una sottocartella `projects` organizzata in questo modo:
@@ -29,7 +46,7 @@ All'inizio di questa cartella troverai una sottocartella `projects` organizzata 
 
 Il progetto `hello_world` è un esempio, verifica che funzioni
 attraverso il solito tasto di compilazione ed esecuzione presente in CLion 
-(o dove è previsto se utilizzo un IDE differente).
+(o dove è previsto se utilizzi un IDE differente).
 
 ------------------------------------------------------------------------
 
