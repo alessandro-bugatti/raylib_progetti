@@ -5,11 +5,6 @@ function(add_raylib_app APP_NAME)
 
     target_compile_features(${APP_NAME} PRIVATE cxx_std_20)
 
-    # Asset path automatico
-    target_compile_definitions(${APP_NAME} PRIVATE
-        ASSETS_PATH="${CMAKE_CURRENT_SOURCE_DIR}/assets/"
-    )
-
     # Copia automatica degli assets accanto all'eseguibile
     add_custom_command(
             TARGET ${APP_NAME} POST_BUILD
