@@ -4,6 +4,7 @@
 *
 ********************************************************************************************/
 
+#include <cstring>
 #include <string>
 #include "raylib.h"
 
@@ -15,6 +16,10 @@ int main(void)
     const int screenHeight = 450;
 
     InitWindow(screenWidth, screenHeight, "Hello world");
+
+    char versione[100];
+    strcat(versione, "Raylib v ");
+    strcat(versione, RAYLIB_VERSION);
 
     SetTargetFPS(60);               // Set our game to run at 60 frames-per-second
     //--------------------------------------------------------------------------------------
@@ -34,7 +39,7 @@ int main(void)
         ClearBackground(RAYWHITE);
 
         DrawText("Hello world!\n You created your first window!", 90, 170, 40, BLUE);
-
+        DrawText(versione, 90, 300, 40, RED);
         EndDrawing();
         //----------------------------------------------------------------------------------
     }
